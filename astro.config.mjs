@@ -34,6 +34,9 @@ export default defineConfig({
     extendDefaultPlugins: true,
   },
   vite: {
+    ssr: {
+      noExternal: ["react-icons"],
+    },
     optimizeDeps: {
       exclude: ["@resvg/resvg-js"],
     },

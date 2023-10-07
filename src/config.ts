@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "enna-ai",
   desc: "Blog",
   title: "V's Blog",
-  ogImage: "fishcake.png",
+  ogImage: "favicon.svg",
   lightAndDarkMode: true,
   postPerPage: 3,
 };
